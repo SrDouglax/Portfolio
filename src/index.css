@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+html, body, #root {
+  background-color: #080808;
+  width: 100%;
+  height: 100%;
+}

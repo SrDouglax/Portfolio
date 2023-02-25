@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+.content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	&>.areas {
+		height: calc(100% - 60px);
+		box-sizing: border-box;
+		display: grid;
+		grid-template-columns: max(420px, 40%) calc(100% - max(420px, 40%) - 20px);
+		grid-template-rows: 100%;
+		gap: 20px;
+		padding: 20px;
+		justify-self: center;
+
+		&>.left {
+
+			.about {
+				background-color: rgba(20.000000707805157, 20.000000707805157, 20.000000707805157, 1);
+				width: 100%;
+				height: 100%;
+				border-radius: 10px;
+				display: flex;
+				flex-direction: column;
+
+				&>.title {
+					color: rgba(255, 255, 255, 1);
+					width: 330px;
+					height: 22px;
+					display: flex;
+					padding: 20px 24px;
+					font-family: Staatliches;
+					text-align: left;
+					font-size: 30px;
+					letter-spacing: 0;
+					cursor: default;
+				}
+
+				&>.content {
+					display: flex;
+					flex-direction: row;
+					height: max-content;
+					padding: 12px 24px;
+
+					&>.picture {
+						box-sizing: border-box;
+						height: max(80px, min(10vw, 110px));
+						border-radius: 50%;
+						padding: 14px;
+					}
+
+					&>.text {
+						margin-left: 10px;
+						color: rgba(221, 221, 221, 1);
+						height: 94px;
+						font-family: Roboto;
+						font-size: clamp(0.9rem, 1.7vw, 1.3rem);
+						line-height: clamp(1.1rem, 2vw, 1.3rem);
+
+						&>* {
+							&:first-child {
+								font-family: 'Gloria Hallelujah', cursive;
+								color: rgb(255, 106, 0);
+							}
+
+							&:last-child {
+								font-family: 'Noto Sans Mono', monospace;
+								color: rgb(255, 255, 255);
+							}
+						}
+					}
+				}
+
+				&>.skills {
+					box-sizing: border-box;
+					padding: 0 24px;
+					width: auto;
+					display: flex;
+					color: white;
+					font-family: Lato;
+					font-size: 22px;
+					
+					&>.master {
+						width: 50%;
+						&>.items {
+							box-sizing: border-box;
+							margin-top: 10px;
+							width: 100%;
+							overflow-x: scroll;
+							display: flex;
+							gap: -10px;
+							padding: 10px;
+							&>.item {
+								margin-left: -5px;
+								flex-shrink: 0;
+								width: 50px;
+								height: 50px;
+								border-radius: 15px;
+								background-color: #eeeeee;
+								box-shadow: 0px 4px 20px #000000dd;
+							}
+							&::-webkit-scrollbar {
+								width: 3px;
+								height: 3px;
+								border-radius: 2.5px;
+								background-color: rgb(21, 21, 21);
+							}
+			
+							&::-webkit-scrollbar-thumb {
+								border-radius: 2.5px;
+								background-color: rgb(50, 50, 50);
+							}
+						}
+					}
+					&>.studying {
+						width: 50%;
+						&>.items {
+							box-sizing: border-box;
+							margin-top: 10px;
+							width: 100%;
+							overflow-x: scroll;
+							display: flex;
+							gap: -10px;
+							padding: 10px;
+							&>.item {
+								margin-left: -5px;
+								flex-shrink: 0;
+								width: 50px;
+								height: 50px;
+								border-radius: 15px;
+								background-color: #7c7c7c;
+								box-shadow: 0px 4px 20px #000000dd;
+							}
+							&::-webkit-scrollbar {
+								width: 3px;
+								height: 3px;
+								border-radius: 2.5px;
+								background-color: rgb(21, 21, 21);
+							}
+			
+							&::-webkit-scrollbar-thumb {
+								border-radius: 2.5px;
+								background-color: rgb(50, 50, 50);
+							}
+						}
+					}
+
+				}
+
+				&>.contact {
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					align-items: flex-end;
+					justify-content: flex-end;
+					gap: 14px;
+					margin-top: 25px;
+					padding: 0 32px 32px 32px;
+
+					.contact-icon {
+						height: 60%;
+						aspect-ratio: 0.9;
+						object-fit: contain;
+						margin-right: 12px;
+						filter: brightness(0) invert(1);
+					}
+
+					.contact {
+						text-decoration: none;
+						cursor: pointer;
+					}
+
+
+					.github {
+						background-color: rgba(0, 0, 0, 0.2);
+						width: 100%;
+						height: 50px;
+						border-radius: 10px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						box-shadow: 0px 4px 10px #00000052;
+						transition: ease 200ms;
+						position: relative;
+						top: 0px;
+						outline: white solid 0;
+
+						&:hover {
+							box-shadow: 0px 0px 30px 1px #00000084;
+							top: -3px;
+							outline: white solid 1px;
+						}
+
+						&>.text {
+							color: white;
+							font-family: Lato;
+							text-align: center;
+							font-size: 24px;
+						}
+					}
+
+					.discord {
+						background-color: rgba(0, 0, 0, 0.2);
+						width: 100%;
+						height: 50px;
+						border-radius: 10px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						box-shadow: 0px 4px 10px #00000052;
+						transition: ease 200ms;
+						position: relative;
+						top: 0px;
+						outline: white solid 0;
+
+						&:hover {
+							box-shadow: 0px 0px 30px 1px #00000084;
+							top: -3px;
+							outline: white solid 1px;
+						}
+
+						&>.text {
+							color: white;
+							font-family: Lato;
+							text-align: center;
+							font-size: 24px;
+						}
+					}
+
+					.email {
+						background-color: rgba(0, 0, 0, 0.2);
+						width: 100%;
+						height: 50px;
+						border-radius: 10px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						box-shadow: 0px 4px 10px #00000052;
+						transition: ease 200ms;
+						position: relative;
+						top: 0px;
+						outline: white solid 0;
+
+						&:hover {
+							box-shadow: 0px 0px 30px 1px #00000084;
+							top: -3px;
+							outline: white solid 1px;
+						}
+
+						&>.text {
+							color: white;
+							font-family: Lato;
+							text-align: center;
+							font-size: 24px;
+						}
+					}
+
+				}
+			}
+		}
+
+		&>.right {
+			height: 100%;
+			display: grid;
+			grid-template-rows: max-content auto;
+
+			&>.myprojects {
+				box-sizing: border-box;
+				position: relative;
+				background-color: rgb(20, 20, 20);
+				width: 100%;
+				height: 62px;
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				padding: 0 24px;
+				box-shadow: 0px 4px 20px #000000;
+
+				&>.title {
+					color: rgba(255, 255, 255, 1);
+					font-family: Staatliches;
+					text-align: left;
+					font-size: 30px;
+					letter-spacing: 0;
+					cursor: default;
+				}
+			}
+
+			&>.projects {
+				box-sizing: border-box;
+				padding: 20px 10px 0 10px;
+				overflow-y: auto;
+				width: 100%;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				grid-auto-rows: max-content;
+				gap: 18px;
+
+				@media screen and (max-width: 1240px) {
+					grid-template-columns: repeat(2, 1fr);
+				}
+
+				@media screen and (max-width: 910px) {
+					grid-template-columns: repeat(1, 1fr);
+				}
+
+				@media screen and (min-width: 2300px) {
+					grid-template-columns: repeat(4, 1fr);
+				}
+
+				&::-webkit-scrollbar {
+					width: 5px;
+					height: 5px;
+					border-radius: 2.5px;
+					background-color: rgb(21, 21, 21);
+				}
+
+				&::-webkit-scrollbar-thumb {
+					border-radius: 2.5px;
+					background-color: rgb(50, 50, 50);
+				}
+			}
+		}
+	}
+}
