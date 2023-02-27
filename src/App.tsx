@@ -17,42 +17,42 @@ function App() {
 
   const [projects, setProjects] = useState<ProjectProps[]>([
     {
-      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brese-indev.web.app', tags: [
+      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brase-indev.web.app', tags: [
         { docs: 'https://reactjs.org/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' },
         { docs: 'https://firebase.google.com/', iconURL: 'https://i.pinimg.com/originals/07/ca/4a/07ca4afbde70ce0c995b3f63e9c04ceb.png' },
         { docs: 'https://sass-lang.com/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
       ]
     },
     {
-      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brese-indev.web.app', tags: [
+      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brase-indev.web.app', tags: [
         { docs: 'https://reactjs.org/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' },
         { docs: 'https://firebase.google.com/', iconURL: 'https://i.pinimg.com/originals/07/ca/4a/07ca4afbde70ce0c995b3f63e9c04ceb.png' },
         { docs: 'https://sass-lang.com/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
       ]
     },
     {
-      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brese-indev.web.app', tags: [
+      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brase-indev.web.app', tags: [
         { docs: 'https://reactjs.org/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' },
         { docs: 'https://firebase.google.com/', iconURL: 'https://i.pinimg.com/originals/07/ca/4a/07ca4afbde70ce0c995b3f63e9c04ceb.png' },
         { docs: 'https://sass-lang.com/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
       ]
     },
     {
-      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brese-indev.web.app', tags: [
+      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brase-indev.web.app', tags: [
         { docs: 'https://reactjs.org/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' },
         { docs: 'https://firebase.google.com/', iconURL: 'https://i.pinimg.com/originals/07/ca/4a/07ca4afbde70ce0c995b3f63e9c04ceb.png' },
         { docs: 'https://sass-lang.com/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
       ]
     },
     {
-      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brese-indev.web.app', tags: [
+      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brase-indev.web.app', tags: [
         { docs: 'https://reactjs.org/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' },
         { docs: 'https://firebase.google.com/', iconURL: 'https://i.pinimg.com/originals/07/ca/4a/07ca4afbde70ce0c995b3f63e9c04ceb.png' },
         { docs: 'https://sass-lang.com/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
       ]
     },
     {
-      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brese-indev.web.app', tags: [
+      title: 'Brase', description: 'A webapp created with ReactJs', status: 'In development', picture: braseIcon, projectURL: 'https://brase-indev.web.app', tags: [
         { docs: 'https://reactjs.org/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' },
         { docs: 'https://firebase.google.com/', iconURL: 'https://i.pinimg.com/originals/07/ca/4a/07ca4afbde70ce0c995b3f63e9c04ceb.png' },
         { docs: 'https://sass-lang.com/', iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
