@@ -9,13 +9,14 @@ export interface ProjectProps {
   status: string,
   picture: string,
   projectURL: string,
+  github: string,
   tags: Array<{
     docs: string,
     iconURL: string,
   }>
 }
 
-function Project({ title, description, status, picture, projectURL, tags }: ProjectProps) {
+function Project({ title, description, status, picture, projectURL, github, tags }: ProjectProps) {
   return (
     <div className="project">
       <div className="inline">
@@ -24,7 +25,12 @@ function Project({ title, description, status, picture, projectURL, tags }: Proj
           <span className="text">{status}</span>
         </div>
       </div>
-      <span className="title">{title}</span>
+      <span className="title">
+        {title}
+        <a href={github} target='_blank'>
+          <span className="material-symbols-outlined">code_blocks</span>
+        </a>
+      </span>
       <span className="description">{description}</span>
       <div className="tags">
         <a className="open" href={projectURL} target='_blank'>
@@ -36,7 +42,7 @@ function Project({ title, description, status, picture, projectURL, tags }: Proj
           </a>
         ))}
       </div>
-    </div>
+    </div >
   )
 }
 

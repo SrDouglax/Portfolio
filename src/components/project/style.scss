@@ -41,6 +41,15 @@
 		font-style: normal;
 		font-weight: 400;
 		font-size: 20px;
+		display: flex;
+		align-items: center;
+		& > a {
+			& > * {
+				padding-left: 10px;
+				cursor: pointer;
+				color: white;
+			}
+		}
 	}
 
 	&>.description {
