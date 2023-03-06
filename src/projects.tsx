@@ -1,5 +1,6 @@
 import braseIcon from './assets/BraseIcon.png'
 import royalIcon from './assets/RoyalIcon.png'
+import nimIcon from './assets/NIM.png'
 
 export const Projects = [
     { // Brase
@@ -26,8 +27,8 @@ export const Projects = [
         description: 'Game Engine in Alpha', 
         status: 'In development', 
         picture: royalIcon, 
-        projectURL: 'https://brase-indev.web.app', 
-        github: 'https://github.com/RoyalEngine',
+        projectURL: 'https://royalengine.vercel.app/', 
+        github: 'https://github.com/SrDouglax/Royal',
         tags: [
             { 
                 docs: 'https://reactjs.org/', 
@@ -36,5 +37,17 @@ export const Projects = [
                 docs: 'https://sass-lang.com/', 
                 iconURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' },
         ]
+    },
+    { // NIM
+        title: 'NIM', 
+        description: 'Jogo NIM', 
+        status: 'In development', 
+        picture: nimIcon, 
+        projectURL: 'https://jogo-nim.vercel.app/', 
+        github: 'https://github.com/SrDouglax/Jogo-Nim',
+        tags: [{
+            docs: 'https://developer.mozilla.org/en-US/docs/Web',
+            iconURL: 'https://pcodinomebzero.neocities.org/Imagens/javascript1.png'
+        }]
     },
 ]
